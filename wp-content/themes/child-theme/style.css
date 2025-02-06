@@ -29,12 +29,12 @@ header {
 body {
 	border-right-style: solid;
 	border-left-style: solid;
-	border-width: 25px;
+	border-width: 40px;
 	background-color: var(--body);
 }
 
 main {
-	margin-top: 10px !important;
+	margin-top: 20px !important;
 }
 
 footer{
@@ -61,10 +61,6 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.wp-block-group {
-	margin-top: 10px;
 }
 
 .wp-block-heading {
