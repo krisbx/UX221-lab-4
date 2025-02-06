@@ -18,16 +18,23 @@ Template:       twentytwentyfive
 @font-face {
 	font-family: test
 		src: url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=MedievalSharp&display=swap');
+	font-family: test2
+		src: url('https://fonts.googleapis.com/css2family=Caveat:wght@400..700&family=MedievalSharp&family=Skranji:wght@400;700&display=swap');
 }
 
 header {
-	background-color: var(--silver)
+	background-color: var(--silver);
+		border: 10px solid #989898;
 }
 body {
 	border-right-style: solid;
 	border-left-style: solid;
 	border-width: 25px;
 	background-color: var(--body);
+}
+
+main {
+	margin-top: 10px !important;
 }
 
 footer{
@@ -38,8 +45,6 @@ footer{
 li {
 	text-align: center;
 }
-
-
 
 h1 {
 	text-align: center;
@@ -58,3 +63,16 @@ h2 {
   width: 50%;
 }
 
+.wp-block-group {
+	margin-top: 10px;
+}
+
+.wp-block-heading {
+	font-size: 100px;
+	text-align: center;
+	letter-spacing: 50px;
+	font-weight: bold;
+	font-family: test2;
+	text-transform: uppercase;
+	color: #ccc;
+}
